@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  gsencrypt.cpp
+dllmain.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     正在创建库 C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\\Run\gsencrypt.lib 和对象 C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\\Run\gsencrypt.exp
+  gsencrypt.vcxproj -> C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\\Run\gsencrypt.dll

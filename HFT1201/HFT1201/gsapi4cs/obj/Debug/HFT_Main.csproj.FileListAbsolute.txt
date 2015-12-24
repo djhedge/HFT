@@ -1,0 +1,35 @@
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.Demo.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.FIXLog.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.Logon.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.MainForm.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.MainForm.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.Properties.Resources.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\Administrator\Desktop\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.exe
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.exe
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.StructFundForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.MainForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\Debug\HFT_Main.csproj.GenerateResource.Cache

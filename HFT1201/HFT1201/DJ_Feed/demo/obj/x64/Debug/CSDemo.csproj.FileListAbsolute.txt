@@ -1,0 +1,6 @@
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\bin\x64Debug\CSDemo.exe.config
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\bin\x64Debug\CSDemo.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\bin\x64Debug\CSDemo.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\demo\obj\x64\Debug\CSDemo.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\demo\obj\x64\Debug\CSDemo.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_Feed\demo\obj\x64\Debug\CSDemo.pdb

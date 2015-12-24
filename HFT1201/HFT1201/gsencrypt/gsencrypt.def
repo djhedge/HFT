@@ -1,0 +1,5 @@
+LIBRARY	"gsencrypt"
+
+EXPORTS
+
+	gsEncrypt

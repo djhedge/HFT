@@ -1,0 +1,9 @@
+E:\金证FIX\demo\gsapi4cs\Run\FIXApi.dll
+E:\金证FIX\demo\gsapi4cs\Run\FIXApi.pdb
+E:\金证FIX\demo\gsapi4cs\FIXApi\obj\x86\Release\ResolveAssemblyReference.cache
+E:\金证FIX\demo\gsapi4cs\FIXApi\obj\x86\Release\FIXApi.dll
+E:\金证FIX\demo\gsapi4cs\FIXApi\obj\x86\Release\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\x86\Release\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\x86\Release\FIXApi.pdb

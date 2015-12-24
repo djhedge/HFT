@@ -1,0 +1,64 @@
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\Run\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\Run\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\Run\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\Run\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\Run\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\Run\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.pdb
+D:\Documents\Visual Studio 2013\Projects\DJ_FIX\Run\FIXApi.dll
+D:\Documents\Visual Studio 2013\Projects\DJ_FIX\Run\FIXApi.pdb
+D:\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.dll
+D:\Documents\Visual Studio 2013\Projects\DJ_FIX\FIXApi\obj\Debug\FIXApi.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+D:\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+D:\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.dll
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HighFreqTrading\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HighFreqTrading\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\wuguang\Desktop\HighFreqTrading\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\FIXApi.dll
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\FIXApi.pdb
+C:\Users\wuguang\Desktop\HFT1201\Run\FIXApi.dll
+C:\Users\wuguang\Desktop\HFT1201\Run\FIXApi.pdb
+C:\Users\wuguang\Desktop\HFT1201\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HFT1201\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\wuguang\Desktop\HFT1201\FIXApi\obj\Debug\FIXApi.pdb
+C:\Users\wuguang\Desktop\HFT1204\Run\FIXApi.dll
+C:\Users\wuguang\Desktop\HFT1204\Run\FIXApi.pdb
+C:\Users\wuguang\Desktop\HFT1204\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HFT1204\FIXApi\obj\Debug\FIXApi.dll
+C:\Users\wuguang\Desktop\HFT1204\FIXApi\obj\Debug\FIXApi.pdb
