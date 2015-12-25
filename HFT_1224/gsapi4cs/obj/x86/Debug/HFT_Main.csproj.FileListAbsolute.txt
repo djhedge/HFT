@@ -1,0 +1,268 @@
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Desktop\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Desktop\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\Administrator\Desktop\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\Administrator\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading_New\Run\gsapi4cs.exe.config
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading_New\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading_New\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+D:\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+D:\Visual Studio 2013\Projects\HighFreqTrading\Run\SendOrder.py
+C:\Users\huyue\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\SendOrder.py
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\SendOrder.py
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\gsapi4cs.exe.config
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\SendOrder.py
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HighFreqTrading\Run\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Desktop\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\wuguang\Desktop\HFT1201\Run\gsapi4cs.exe.config
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT1201\Run\SendOrder.py
+C:\Users\wuguang\Desktop\HFT1201\Run\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT1201\Run\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\wuguang\Desktop\HFT1201\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Desktop\HFT1204\Run\gsapi4cs.exe.config
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT1204\Run\SendOrder.py
+C:\Users\wuguang\Desktop\HFT1204\Run\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT1204\Run\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\wuguang\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT1204\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT1204\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT1204\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT1204\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\CT\Desktop\HFT1204\Run\gsapi4cs.exe.config
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\CT\Desktop\HFT1204\Run\SendOrder.py
+C:\Users\CT\Desktop\HFT1204\Run\gsapi4cs.exe
+C:\Users\CT\Desktop\HFT1204\Run\gsapi4cs.pdb
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\CT\Desktop\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\Run\gsapi4cs.exe.config
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\Run\SendOrder.py
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\Run\gsapi4cs.exe
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\Run\gsapi4cs.pdb
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\wuguang\Documents\Tencent Files\452517139\FileRecv\HFT1204\HFT1204\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT1204 - 副本\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT1204 - 副本\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT1204 - 副本\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT1204 - 副本\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT1204 - 副本\Run\gsapi4cs.pdb
+C:\Users\CT\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HighFreqTrading_1215\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\SendOrder.py
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1215\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1215\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT_1215\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1215\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT_1215\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Desktop\HFT_1222\Run\gsapi4cs.exe.config
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\wuguang\Desktop\HFT_1222\Run\SendOrder.py
+C:\Users\wuguang\Desktop\HFT_1222\Run\gsapi4cs.exe
+C:\Users\wuguang\Desktop\HFT_1222\Run\gsapi4cs.pdb
+C:\Users\wuguang\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\huyue\Desktop\HFT_1222\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1222\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT_1222\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1222\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\CT\Desktop\HFT_1222\Run\gsapi4cs.exe.config
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\CT\Desktop\HFT_1222\Run\SendOrder.py
+C:\Users\CT\Desktop\HFT_1222\Run\gsapi4cs.exe
+C:\Users\CT\Desktop\HFT_1222\Run\gsapi4cs.pdb
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\CT\Desktop\HFT_1222\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT_1222 - 副本\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT_1222 - 副本\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT_1222 - 副本\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT_1222 - 副本\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1222 - 副本\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1223\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1223\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT_1223\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1223\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT_1223\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
+C:\Users\huyue\Desktop\HFT_1224\Run\gsapi4cs.exe.config
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1224\Run\SendOrder.py
+C:\Users\huyue\Desktop\HFT_1224\Run\gsapi4cs.exe
+C:\Users\huyue\Desktop\HFT_1224\Run\gsapi4cs.pdb
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT_Main.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.Alpha.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.StockArbi.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.StockTrend.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.StructFundForm.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+C:\Users\huyue\Desktop\HFT_1224\gsapi4cs\obj\x86\Debug\HFT_Main.csproj.GenerateResource.Cache
