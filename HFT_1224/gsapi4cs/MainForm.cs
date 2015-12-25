@@ -11,8 +11,8 @@ using FIXApi;
 using System.Threading;
 using System.Reflection;
 using System.IO;
-using IronPython;
-using Microsoft.Scripting.Hosting;
+//using IronPython;
+//using Microsoft.Scripting.Hosting;
 using System.Diagnostics;
 using System.Data.SqlClient;
 using System.Runtime.InteropServices;
@@ -86,8 +86,8 @@ namespace HFT
 
             subScriptionList = openSettings.Subscriptions;
 
-            // connStr = "server=192.168.0.100,1433;database=HedgeHogDB;User ID=ct;Password=djdl@1633;Connection Timeout=30";
-            connStr = "server=.;database=HedgeHogDB;integrated security=SSPI";
+             connStr = "server=192.168.0.169,1433;database=HedgeHogDB;User ID=wg;Password=Pass@word;Connection Timeout=30";
+            //connStr = "server=.;database=HedgeHogDB;integrated security=SSPI";
 
             dataDict = new Dictionary<string, SingleStockData>();
 
@@ -216,7 +216,7 @@ namespace HFT
             conn.Open();
 
             //// TODO:  这行代码将数据加载到表“hedgeHogDBDataSet.v_Strategy”中。您可以根据需要移动或删除它。
-            this.v_StrategyTableAdapter.Fill(this.hedgeHogDBDataSet.v_Strategy);
+           // this.v_StrategyTableAdapter.Fill(this.hedgeHogDBDataSet.v_Strategy);
 
             logOnAll();
             
@@ -1280,18 +1280,27 @@ namespace HFT
                 if (num == 0 || price == 0)
                     continue;
                 //是否找到该策略该股票
+                
                 bool Hasrecord = false;
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
                     DataRow dr = dt.Rows[i];
                     //在现有持仓中找到该策略该股票，修正股票数量
-                    if (Account == Convert.ToString(dr["Account"]) && (Strategy == Convert.ToString(dr["Strategy"]) || (Strategy == Convert.ToString(dr["Strategy"]) + "_" + Convert.ToString(dr["SubStrategy1"]) + "_" + Convert.ToString(dr["SubStrategy2"]))) && ticker == Convert.ToString(dr["Ticker"]))
+                    if (Account == Convert.ToString(dr["Account"]) && (Strategy == Convert.ToString(dr["Strategy"]) || Strategy == "StockTrending"|| (Strategy == Convert.ToString(dr["Strategy"]) + "_" + Convert.ToString(dr["SubStrategy1"]) + "_" + Convert.ToString(dr["SubStrategy2"]))) && ticker == Convert.ToString(dr["Ticker"]))
                     {
                         Hasrecord = true;
                         if (type == "Buy")
                         {
-                            // dr["PrePosition"] = Convert.ToInt32(dr["PrePosition"]) + num;
-                            dr["TodayBuy"] = num + Convert.ToInt32(dr["TodayBuy"]);
+
+                            if (Strategy == "StockTrending")
+                            {
+                                dr["TodayBuy"] = Convert.ToInt32(dr["TodayBuy"]) + Math.Min(Convert.ToInt32(dr["PrePosition"]), num);
+                                num = num - Math.Min(Convert.ToInt32(dr["PrePosition"]), num);
+                            }
+
+                            else
+
+                                dr["TodayBuy"] = num + Convert.ToInt32(dr["TodayBuy"]);
 
                         }
                         else if (type == "Sell")
@@ -1299,10 +1308,16 @@ namespace HFT
                             //dr["PrePosition"] = Convert.ToInt32(dr["PrePosition"]) - num;
                             //dr["TodaySell"] = Math.Min(Convert.ToInt32(dr["PrePosition"]) - Convert.ToInt32(dr["TodaySell"]), num) + Convert.ToInt32(dr["TodaySell"]);
                             //num = num - Math.Min(Convert.ToInt32(dr["PrePosition"]) - Convert.ToInt32(dr["TodaySell"]), num);
-                            dr["TodaySell"] = num + Convert.ToInt32(dr["TodaySell"]);
+                            if (Strategy == "StockTrending")
+                            {
+                                dr["TodaySell"] = Math.Min(Convert.ToInt32(dr["PrePosition"]) - Convert.ToInt32(dr["TodaySell"]), num) + Convert.ToInt32(dr["TodaySell"]);
+                                num = num - Math.Min(Convert.ToInt32(dr["PrePosition"]) - Convert.ToInt32(dr["TodaySell"]), num);
+                            }
+                            else
+                             dr["TodaySell"] = num + Convert.ToInt32(dr["TodaySell"]);
                         }
-                        //if (num==0)
-                        //break;
+                        if (num==0)
+                        break;
                     }
                 }
 
@@ -1564,6 +1579,68 @@ namespace HFT
             stForm.MF = this;
 
             stForm.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            DataTable dt= tdx.QueryStock();
+
+            DataTable writedt = new DataTable();
+            writedt.Columns.Add("Account");
+            writedt.Columns.Add("Strategy");
+            writedt.Columns.Add("SubStrategy1");
+            writedt.Columns.Add("SubStrategy2");
+            writedt.Columns.Add("Ticker");
+            writedt.Columns.Add("PrePosition");
+            writedt.Columns.Add("PreClose");
+            writedt.Columns.Add("TodayBuy");
+            writedt.Columns.Add("TodaySell");
+            string[] strvalue = textBox1.Text.ToString().Split('_');
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                DataRow olddr = dt.Rows[i];
+                if (Convert.ToString(olddr["Ticker"]).Substring(0, 1) == "5" || Convert.ToString(olddr["Ticker"]).Substring(0, 1) == "1")
+                    continue;
+                DataRow dr = writedt.NewRow();
+                dr["Account"] = Convert.ToString("hy1");
+                dr["Strategy"] = strvalue[0];
+                dr["SubStrategy1"] = strvalue[1];
+                dr["SubStrategy2"] = strvalue[2];
+                dr["Ticker"] = olddr["Ticker"];
+                dr["PrePosition"] = olddr["Position"];
+                dr["PreClose"] = 0;
+                dr["TodayBuy"] = 0;
+                dr["TodaySell"] = 0;
+                writedt.Rows.Add(dr);
+
+            }
+                //
+                string sql1 = "delete from Inventory where Account='hy1'";
+                SqlCommand cmd1 = new SqlCommand(sql1, conn);
+                cmd1.ExecuteNonQuery();
+
+
+
+                SqlBulkCopy bulkCopy = new SqlBulkCopy(conn);
+                bulkCopy.DestinationTableName = "Inventory";
+                bulkCopy.ColumnMappings.Add("Account", "Account");
+                bulkCopy.ColumnMappings.Add("Strategy", "Strategy");
+                bulkCopy.ColumnMappings.Add("SubStrategy1", "SubStrategy1");
+                bulkCopy.ColumnMappings.Add("SubStrategy2", "SubStrategy2");
+                bulkCopy.ColumnMappings.Add("Ticker", "Ticker");
+                bulkCopy.ColumnMappings.Add("PrePosition", "PrePosition");
+                bulkCopy.ColumnMappings.Add("PreClose", "PreClose");
+                bulkCopy.ColumnMappings.Add("TodayBuy", "TodayBuy");
+                bulkCopy.ColumnMappings.Add("TodaySell", "TodaySell");
+               
+
+                bulkCopy.WriteToServer(writedt);
+                
+                
+                
+
+            
+            
         }
 
   

@@ -826,3 +826,56 @@
 20151225-01:03:00 : Received logout request
 20151225-01:03:00 : Sending logout response
 20151225-01:03:00 : Disconnecting
+20151225-06:00:55 : Created session
+20151225-06:00:55 : Connecting to 58.61.28.214 on port 8878
+20151225-06:00:55 : Initiated logon request
+20151225-06:00:56 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:00:56 : Received logon response
+20151225-06:08:15 : Created session
+20151225-06:08:15 : Connecting to 58.61.28.214 on port 8878
+20151225-06:08:15 : Initiated logon request
+20151225-06:08:15 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:08:15 : Received logon response
+20151225-06:10:10 : Created session
+20151225-06:10:10 : Connecting to 58.61.28.214 on port 8878
+20151225-06:10:10 : Initiated logon request
+20151225-06:10:10 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:10:10 : Received logon response
+20151225-06:17:18 : Created session
+20151225-06:17:18 : Connecting to 58.61.28.214 on port 8878
+20151225-06:17:18 : Initiated logon request
+20151225-06:17:19 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:17:19 : Received logon response
+20151225-06:47:28 : Created session
+20151225-06:47:28 : Connecting to 58.61.28.214 on port 8878
+20151225-06:47:28 : Initiated logon request
+20151225-06:47:28 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:47:28 : Received logon response
+20151225-06:48:33 : Created session
+20151225-06:48:33 : Connecting to 58.61.28.214 on port 8878
+20151225-06:48:33 : Initiated logon request
+20151225-06:48:34 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:48:34 : Received logon response
+20151225-06:49:58 : Created session
+20151225-06:49:58 : Connecting to 58.61.28.214 on port 8878
+20151225-06:49:58 : Initiated logon request
+20151225-06:49:58 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:49:58 : Received logon response
+20151225-06:50:59 : Created session
+20151225-06:50:59 : Connecting to 58.61.28.214 on port 8878
+20151225-06:50:59 : Initiated logon request
+20151225-06:50:59 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:50:59 : Received logon response
+20151225-06:51:56 : Created session
+20151225-06:51:56 : Connecting to 58.61.28.214 on port 8878
+20151225-06:51:57 : Initiated logon request
+20151225-06:51:57 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-06:51:57 : Received logon response
+20151225-07:28:35 : Created session
+20151225-07:28:35 : Connecting to 58.61.28.214 on port 8878
+20151225-07:28:35 : Initiated logon request
+20151225-07:28:35 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151225-07:28:35 : Received logon response
+20151225-07:29:35 : Received logout request
+20151225-07:29:35 : Sending logout response
+20151225-07:29:35 : Disconnecting

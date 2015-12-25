@@ -123,6 +123,8 @@
             this.buttonTDXLogon = new System.Windows.Forms.Button();
             this.buttonTDXQueryCash = new System.Windows.Forms.Button();
             this.buttonTDXOrderTest = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.vStrategyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hedgeHogDBDataSet = new HFT.HedgeHogDBDataSet();
             this.v_StrategyTableAdapter = new HFT.HedgeHogDBDataSetTableAdapters.v_StrategyTableAdapter();
@@ -1316,6 +1318,8 @@
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXLogon, 0, 0);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXQueryCash, 0, 1);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXOrderTest, 0, 2);
+            this.tableLayoutPanel21.Controls.Add(this.button8, 1, 1);
+            this.tableLayoutPanel21.Controls.Add(this.textBox1, 1, 2);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
@@ -1366,6 +1370,24 @@
             this.buttonTDXOrderTest.Text = "下单测试";
             this.buttonTDXOrderTest.UseVisualStyleBackColor = true;
             this.buttonTDXOrderTest.Click += new System.EventHandler(this.buttonTDXOrderTest_Click);
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(166, 31);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 22);
+            this.button8.TabIndex = 4;
+            this.button8.Text = "查询股份";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(166, 59);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(142, 21);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "alpha_arbitrage_ZZ500";
             // 
             // vStrategyBindingSource
             // 
@@ -1460,6 +1482,7 @@
             this.tableLayoutPanel14.ResumeLayout(false);
             this.tableLayoutPanel14.PerformLayout();
             this.tableLayoutPanel21.ResumeLayout(false);
+            this.tableLayoutPanel21.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vStrategyBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hedgeHogDBDataSet)).EndInit();
             this.ResumeLayout(false);
@@ -1565,5 +1588,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel21;
         private System.Windows.Forms.Button buttonTDXOrderTest;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

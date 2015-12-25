@@ -1288,7 +1288,7 @@ namespace FIXApi
        {
            OrderBookUpdate("OrderBook", conn);
            OrderBookUpdate("HistOrderBook", conn);
-           OrderBook.Clear();
+          // OrderBook.Clear();
 
        }
        public void OrderBookUpdate(string tablename, SqlConnection conn)
@@ -1322,7 +1322,10 @@ namespace FIXApi
                DataRow dr = dt_orderbook.NewRow();
                OrderBookEntry tmpentry = OrderBook[key];
                //账户，最好在entry中包含下单账户
-               dr["Account"] = tmpentry.Account;
+               if (string.IsNullOrEmpty(tmpentry.Account))
+                   dr["Account"] = "dj1";
+               else
+                  dr["Account"] = tmpentry.Account;
                dr["OrderId"] = tmpentry.orderId;
                dr["OrderTime"] = tmpentry.orderTime;
                dr["OrderDate"] = tmpentry.orderDate;

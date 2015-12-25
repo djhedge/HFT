@@ -77,3 +77,8 @@ C:\Users\huyue\Desktop\HFT_1224\Run\FIXApi.pdb
 C:\Users\huyue\Desktop\HFT_1224\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
 C:\Users\huyue\Desktop\HFT_1224\FIXApi\obj\Debug\FIXApi.dll
 C:\Users\huyue\Desktop\HFT_1224\FIXApi\obj\Debug\FIXApi.pdb
+D:\code\HFT\HFT_1224\Run\FIXApi.dll
+D:\code\HFT\HFT_1224\Run\FIXApi.pdb
+D:\code\HFT\HFT_1224\FIXApi\obj\Debug\FIXApi.csprojResolveAssemblyReference.cache
+D:\code\HFT\HFT_1224\FIXApi\obj\Debug\FIXApi.dll
+D:\code\HFT\HFT_1224\FIXApi\obj\Debug\FIXApi.pdb

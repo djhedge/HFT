@@ -114,6 +114,48 @@ namespace HFT
 
         }
 
+        public  DataTable QueryStock()
+        {
+            QueryData(ClientID, 1, Result, ErrInfo);//查询资金
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Ticker");
+            dt.Columns.Add("Name");
+            dt.Columns.Add("Position");
+            dt.Columns.Add("CanSell");
+            dt.Columns.Add("TodayBuy");
+            dt.Columns.Add("Cost");
+            dt.Columns.Add("OrderAvgPrice");
+            dt.Columns.Add("NowPrice");
+            ErrorMsg = ErrInfo.ToString();
+
+            if (ErrorMsg != string.Empty)
+                return null;
+            else
+            {
+                string[] Strvalue = Result.ToString().Split('\n');
+                for (int i = 1; i < Strvalue.Length; i++)
+                {
+                    string[] Str = Strvalue[i].Split('\t');
+                    DataRow dr = dt.NewRow();
+                    dr["Ticker"] = Str[0];
+                    dr["Name"] = Str[1];
+                    dr["Position"] =Convert.ToInt32(Str[2]);
+                    dr["CanSell"] = Convert.ToInt32(Str[3]);
+                    dr["TodayBuy"] =Convert.ToInt32(Str[4]);
+                    dr["Cost"] = Convert.ToDouble(Str[5]);
+                    dr["OrderAvgPrice"] = Convert.ToDouble(Str[6]);
+                    dr["NowPrice"] = Convert.ToDouble(Str[7]);
+                    dt.Rows.Add(dr);
+
+                }
+
+                return dt;
+            }
+      
+        
+        }
+
         public void TDXTest()
         {
 
