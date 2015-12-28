@@ -213,8 +213,7 @@ namespace HFT
 
         public DataTable QueryOrder()
         {
-            QueryData(ClientID, 3, Result, ErrInfo);//查询委托
-
+            QueryData(ClientID, 3, Result, ErrInfo);//查询成交
             DataTable dt = new DataTable();
             dt.Columns.Add("Ticker");
             dt.Columns.Add("Name");
@@ -229,7 +228,7 @@ namespace HFT
             dt.Columns.Add("OrderTime");         
             dt.Columns.Add("StockHolder");
             dt.Columns.Add("Exchange");
-            dt.PrimaryKey = new DataColumn[] { dt.Columns["ListNum"] };
+          
 
 
             ErrorMsg = ErrInfo.ToString();

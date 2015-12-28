@@ -1671,6 +1671,8 @@ namespace HFT
         private void button9_Click(object sender, EventArgs e)
         {
             tc.QueryHold();
+            //等待5s使查询结果写入数据库
+            Thread.Sleep(5000);
             double capital= QueryCapital();
             T_StockCapital.Text = Convert.ToString(capital);
               
