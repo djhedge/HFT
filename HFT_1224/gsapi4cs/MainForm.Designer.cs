@@ -119,12 +119,40 @@
             this.textBoxTDXOutPut = new System.Windows.Forms.TextBox();
             this.textBoxTDXLog = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.buttonTDXLogoff = new System.Windows.Forms.Button();
             this.buttonTDXLogon = new System.Windows.Forms.Button();
             this.buttonTDXQueryCash = new System.Windows.Forms.Button();
             this.buttonTDXOrderTest = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tbQuery = new System.Windows.Forms.TabPage();
+            this.groupbox6 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.T_FundBal = new System.Windows.Forms.TextBox();
+            this.T_AvlFundBal = new System.Windows.Forms.TextBox();
+            this.T_TotalFundBal = new System.Windows.Forms.TextBox();
+            this.T_Fundasset = new System.Windows.Forms.TextBox();
+            this.T_MktVal = new System.Windows.Forms.TextBox();
+            this.T_FundBuyFrz = new System.Windows.Forms.TextBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.BTN_QueryCreditHold = new System.Windows.Forms.Button();
+            this.B_QueryHold = new System.Windows.Forms.Button();
+            this.BTN_QueryCreditFund = new System.Windows.Forms.Button();
+            this.B_QueryFund = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.T_StockCapital = new System.Windows.Forms.TextBox();
             this.vStrategyBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.hedgeHogDBDataSet = new HFT.HedgeHogDBDataSet();
             this.v_StrategyTableAdapter = new HFT.HedgeHogDBDataSetTableAdapters.v_StrategyTableAdapter();
@@ -184,6 +212,10 @@
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel14.SuspendLayout();
             this.tableLayoutPanel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tbQuery.SuspendLayout();
+            this.groupbox6.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vStrategyBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hedgeHogDBDataSet)).BeginInit();
             this.SuspendLayout();
@@ -217,6 +249,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tbQuery);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -1280,6 +1313,7 @@
             this.tableLayoutPanel14.Controls.Add(this.textBoxTDXOutPut, 1, 1);
             this.tableLayoutPanel14.Controls.Add(this.textBoxTDXLog, 1, 0);
             this.tableLayoutPanel14.Controls.Add(this.tableLayoutPanel21, 0, 0);
+            this.tableLayoutPanel14.Controls.Add(this.dataGridView1, 0, 1);
             this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
@@ -1314,12 +1348,17 @@
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33F));
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34F));
+            this.tableLayoutPanel21.Controls.Add(this.button12, 2, 2);
+            this.tableLayoutPanel21.Controls.Add(this.button11, 2, 1);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXLogoff, 1, 0);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXLogon, 0, 0);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXQueryCash, 0, 1);
             this.tableLayoutPanel21.Controls.Add(this.buttonTDXOrderTest, 0, 2);
             this.tableLayoutPanel21.Controls.Add(this.button8, 1, 1);
             this.tableLayoutPanel21.Controls.Add(this.textBox1, 1, 2);
+            this.tableLayoutPanel21.Controls.Add(this.button10, 2, 0);
+            this.tableLayoutPanel21.Controls.Add(this.button13, 2, 3);
+            this.tableLayoutPanel21.Controls.Add(this.button14, 1, 3);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
@@ -1330,6 +1369,26 @@
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel21.Size = new System.Drawing.Size(496, 115);
             this.tableLayoutPanel21.TabIndex = 5;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(329, 59);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(89, 22);
+            this.button12.TabIndex = 8;
+            this.button12.Text = "查询当日成交";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(329, 31);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(89, 22);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "查询当日委托";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // buttonTDXLogoff
             // 
@@ -1388,6 +1447,291 @@
             this.textBox1.Size = new System.Drawing.Size(142, 21);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "alpha_arbitrage_ZZ500";
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(329, 3);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 22);
+            this.button10.TabIndex = 6;
+            this.button10.Text = "单笔委托";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(329, 87);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 22);
+            this.button13.TabIndex = 9;
+            this.button13.Text = "查询可撤单";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(166, 87);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 10;
+            this.button14.Text = "撤单";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(3, 124);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(496, 115);
+            this.dataGridView1.TabIndex = 6;
+            // 
+            // tbQuery
+            // 
+            this.tbQuery.Controls.Add(this.groupbox6);
+            this.tbQuery.Location = new System.Drawing.Point(4, 22);
+            this.tbQuery.Name = "tbQuery";
+            this.tbQuery.Size = new System.Drawing.Size(1011, 611);
+            this.tbQuery.TabIndex = 6;
+            this.tbQuery.Text = "查询";
+            this.tbQuery.UseVisualStyleBackColor = true;
+            // 
+            // groupbox6
+            // 
+            this.groupbox6.Controls.Add(this.tableLayoutPanel15);
+            this.groupbox6.Location = new System.Drawing.Point(21, 19);
+            this.groupbox6.Name = "groupbox6";
+            this.groupbox6.Size = new System.Drawing.Size(218, 380);
+            this.groupbox6.TabIndex = 1;
+            this.groupbox6.TabStop = false;
+            this.groupbox6.Text = "查询";
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 2;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel15.Controls.Add(this.label8, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.label9, 0, 1);
+            this.tableLayoutPanel15.Controls.Add(this.label10, 0, 2);
+            this.tableLayoutPanel15.Controls.Add(this.label11, 0, 3);
+            this.tableLayoutPanel15.Controls.Add(this.label12, 0, 4);
+            this.tableLayoutPanel15.Controls.Add(this.label13, 0, 5);
+            this.tableLayoutPanel15.Controls.Add(this.T_FundBal, 1, 0);
+            this.tableLayoutPanel15.Controls.Add(this.T_AvlFundBal, 1, 1);
+            this.tableLayoutPanel15.Controls.Add(this.T_TotalFundBal, 1, 2);
+            this.tableLayoutPanel15.Controls.Add(this.T_Fundasset, 1, 3);
+            this.tableLayoutPanel15.Controls.Add(this.T_MktVal, 1, 4);
+            this.tableLayoutPanel15.Controls.Add(this.T_FundBuyFrz, 1, 5);
+            this.tableLayoutPanel15.Controls.Add(this.button9, 0, 9);
+            this.tableLayoutPanel15.Controls.Add(this.BTN_QueryCreditHold, 1, 8);
+            this.tableLayoutPanel15.Controls.Add(this.B_QueryHold, 1, 7);
+            this.tableLayoutPanel15.Controls.Add(this.BTN_QueryCreditFund, 0, 8);
+            this.tableLayoutPanel15.Controls.Add(this.B_QueryFund, 0, 7);
+            this.tableLayoutPanel15.Controls.Add(this.label7, 0, 6);
+            this.tableLayoutPanel15.Controls.Add(this.T_StockCapital, 1, 6);
+            this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 10;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0001F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.999102F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(212, 360);
+            this.tableLayoutPanel15.TabIndex = 0;
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(26, 12);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "资金余额";
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(14, 48);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(77, 12);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "资金可用余额";
+            // 
+            // label10
+            // 
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(26, 84);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 12);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "资产总值";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(26, 120);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 12);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "资金资产";
+            // 
+            // label12
+            // 
+            this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(38, 156);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(29, 12);
+            this.label12.TabIndex = 4;
+            this.label12.Text = "市值";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(14, 192);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(77, 12);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "资金买入冻结";
+            // 
+            // T_FundBal
+            // 
+            this.T_FundBal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_FundBal.Location = new System.Drawing.Point(109, 8);
+            this.T_FundBal.Multiline = true;
+            this.T_FundBal.Name = "T_FundBal";
+            this.T_FundBal.Size = new System.Drawing.Size(100, 20);
+            this.T_FundBal.TabIndex = 6;
+            // 
+            // T_AvlFundBal
+            // 
+            this.T_AvlFundBal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_AvlFundBal.Location = new System.Drawing.Point(109, 44);
+            this.T_AvlFundBal.Multiline = true;
+            this.T_AvlFundBal.Name = "T_AvlFundBal";
+            this.T_AvlFundBal.Size = new System.Drawing.Size(100, 20);
+            this.T_AvlFundBal.TabIndex = 7;
+            // 
+            // T_TotalFundBal
+            // 
+            this.T_TotalFundBal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_TotalFundBal.Location = new System.Drawing.Point(109, 80);
+            this.T_TotalFundBal.Multiline = true;
+            this.T_TotalFundBal.Name = "T_TotalFundBal";
+            this.T_TotalFundBal.Size = new System.Drawing.Size(100, 20);
+            this.T_TotalFundBal.TabIndex = 8;
+            // 
+            // T_Fundasset
+            // 
+            this.T_Fundasset.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_Fundasset.Location = new System.Drawing.Point(109, 116);
+            this.T_Fundasset.Multiline = true;
+            this.T_Fundasset.Name = "T_Fundasset";
+            this.T_Fundasset.Size = new System.Drawing.Size(100, 20);
+            this.T_Fundasset.TabIndex = 9;
+            // 
+            // T_MktVal
+            // 
+            this.T_MktVal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_MktVal.Location = new System.Drawing.Point(109, 152);
+            this.T_MktVal.Multiline = true;
+            this.T_MktVal.Name = "T_MktVal";
+            this.T_MktVal.Size = new System.Drawing.Size(100, 20);
+            this.T_MktVal.TabIndex = 10;
+            // 
+            // T_FundBuyFrz
+            // 
+            this.T_FundBuyFrz.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.T_FundBuyFrz.Location = new System.Drawing.Point(109, 188);
+            this.T_FundBuyFrz.Multiline = true;
+            this.T_FundBuyFrz.Name = "T_FundBuyFrz";
+            this.T_FundBuyFrz.Size = new System.Drawing.Size(100, 20);
+            this.T_FundBuyFrz.TabIndex = 11;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(3, 327);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(88, 23);
+            this.button9.TabIndex = 16;
+            this.button9.Text = "查询股票市值";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // BTN_QueryCreditHold
+            // 
+            this.BTN_QueryCreditHold.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTN_QueryCreditHold.Location = new System.Drawing.Point(119, 294);
+            this.BTN_QueryCreditHold.Name = "BTN_QueryCreditHold";
+            this.BTN_QueryCreditHold.Size = new System.Drawing.Size(80, 23);
+            this.BTN_QueryCreditHold.TabIndex = 15;
+            this.BTN_QueryCreditHold.Text = "查信用持仓";
+            this.BTN_QueryCreditHold.UseVisualStyleBackColor = true;
+            this.BTN_QueryCreditHold.Click += new System.EventHandler(this.BTN_QueryCreditHold_Click);
+            // 
+            // B_QueryHold
+            // 
+            this.B_QueryHold.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.B_QueryHold.Location = new System.Drawing.Point(119, 258);
+            this.B_QueryHold.Name = "B_QueryHold";
+            this.B_QueryHold.Size = new System.Drawing.Size(80, 23);
+            this.B_QueryHold.TabIndex = 13;
+            this.B_QueryHold.Text = "查询持仓";
+            this.B_QueryHold.UseVisualStyleBackColor = true;
+            this.B_QueryHold.Click += new System.EventHandler(this.B_QueryHold_Click);
+            // 
+            // BTN_QueryCreditFund
+            // 
+            this.BTN_QueryCreditFund.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.BTN_QueryCreditFund.Location = new System.Drawing.Point(13, 294);
+            this.BTN_QueryCreditFund.Name = "BTN_QueryCreditFund";
+            this.BTN_QueryCreditFund.Size = new System.Drawing.Size(80, 23);
+            this.BTN_QueryCreditFund.TabIndex = 14;
+            this.BTN_QueryCreditFund.Text = "查信用资产";
+            this.BTN_QueryCreditFund.UseVisualStyleBackColor = true;
+            this.BTN_QueryCreditFund.Click += new System.EventHandler(this.BTN_QueryCreditFund_Click);
+            // 
+            // B_QueryFund
+            // 
+            this.B_QueryFund.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.B_QueryFund.Location = new System.Drawing.Point(13, 258);
+            this.B_QueryFund.Name = "B_QueryFund";
+            this.B_QueryFund.Size = new System.Drawing.Size(80, 23);
+            this.B_QueryFund.TabIndex = 12;
+            this.B_QueryFund.Text = "查询资产";
+            this.B_QueryFund.UseVisualStyleBackColor = true;
+            this.B_QueryFund.Click += new System.EventHandler(this.B_QueryFund_Click);
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(26, 228);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "股票市值";
+            // 
+            // T_StockCapital
+            // 
+            this.T_StockCapital.Location = new System.Drawing.Point(109, 219);
+            this.T_StockCapital.Name = "T_StockCapital";
+            this.T_StockCapital.Size = new System.Drawing.Size(100, 21);
+            this.T_StockCapital.TabIndex = 18;
             // 
             // vStrategyBindingSource
             // 
@@ -1483,6 +1827,11 @@
             this.tableLayoutPanel14.PerformLayout();
             this.tableLayoutPanel21.ResumeLayout(false);
             this.tableLayoutPanel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tbQuery.ResumeLayout(false);
+            this.groupbox6.ResumeLayout(false);
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vStrategyBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hedgeHogDBDataSet)).EndInit();
             this.ResumeLayout(false);
@@ -1590,5 +1939,33 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TabPage tbQuery;
+        private System.Windows.Forms.GroupBox groupbox6;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox T_FundBal;
+        private System.Windows.Forms.TextBox T_AvlFundBal;
+        private System.Windows.Forms.TextBox T_TotalFundBal;
+        private System.Windows.Forms.TextBox T_Fundasset;
+        private System.Windows.Forms.TextBox T_MktVal;
+        private System.Windows.Forms.TextBox T_FundBuyFrz;
+        private System.Windows.Forms.Button B_QueryFund;
+        private System.Windows.Forms.Button B_QueryHold;
+        private System.Windows.Forms.Button BTN_QueryCreditFund;
+        private System.Windows.Forms.Button BTN_QueryCreditHold;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox T_StockCapital;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

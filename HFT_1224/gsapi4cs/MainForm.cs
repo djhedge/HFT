@@ -166,12 +166,12 @@ namespace HFT
                 PropertyInfo pi = G_Log.GetType().GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
                 pi.SetValue(G_Log, true, null);
 
-                //T_FundBal.Text = tc.dt_fund.Rows[0][0].ToString();
-                //T_AvlFundBal.Text = tc.dt_fund.Rows[0][1].ToString();
-                //T_TotalFundBal.Text = tc.dt_fund.Rows[0][2].ToString();
-                //T_Fundasset.Text = tc.dt_fund.Rows[0][3].ToString();
-                //T_MktVal.Text = tc.dt_fund.Rows[0][4].ToString();
-                //T_FundBuyFrz.Text = tc.dt_fund.Rows[0][5].ToString();
+                T_FundBal.Text = tc.dt_fund.Rows[0][0].ToString();
+                T_AvlFundBal.Text = tc.dt_fund.Rows[0][1].ToString();
+                T_TotalFundBal.Text = tc.dt_fund.Rows[0][2].ToString();
+                T_Fundasset.Text = tc.dt_fund.Rows[0][3].ToString();
+                T_MktVal.Text = tc.dt_fund.Rows[0][4].ToString();
+                T_FundBuyFrz.Text = tc.dt_fund.Rows[0][5].ToString();
             }
         }
 
@@ -1251,6 +1251,7 @@ namespace HFT
         private void button5_Click_1(object sender, EventArgs e)
         {
             PositionUpdate();
+            tc.OrderBook.Clear();
            
         }
         public void PositionUpdate()
@@ -1584,6 +1585,9 @@ namespace HFT
         private void button8_Click(object sender, EventArgs e)
         {
             DataTable dt= tdx.QueryStock();
+            dataGridView1.DataSource = dt;
+
+
 
             DataTable writedt = new DataTable();
             writedt.Columns.Add("Account");
@@ -1642,6 +1646,80 @@ namespace HFT
             
             
         }
+
+        private void B_QueryFund_Click(object sender, EventArgs e)
+        {
+            tc.QueryFund();
+        }
+
+        private void BTN_QueryCreditFund_Click(object sender, EventArgs e)
+        {
+            tc.QueryCreditFund();
+
+        }
+
+        private void B_QueryHold_Click(object sender, EventArgs e)
+        {
+            tc.QueryHold();
+        }
+
+        private void BTN_QueryCreditHold_Click(object sender, EventArgs e)
+        {
+            tc.QueryCreditHold();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            tc.QueryHold();
+            double capital= QueryCapital();
+            T_StockCapital.Text = Convert.ToString(capital);
+              
+
+        }
+        private double QueryCapital()
+        
+        {
+            string sql = "select Sum (个股市值) from StockHold where SUBSTRING(股票代码,1,1)!='1' and SUBSTRING(股票代码,1,1)!='5' and  账户 ='dj1'  group by 账户 ";
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            SqlDataReader sqldr = cmd.ExecuteReader();
+            double stockcapital = 0;
+            while (sqldr.Read())
+            {
+                stockcapital = sqldr.GetDouble(0);
+            }
+            return stockcapital;
+        
+        
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            tdx.Send();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+          DataTable dt= tdx.QueryList();
+          dataGridView1.DataSource = dt;
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            DataTable dt = tdx.QueryOrder();
+            dataGridView1.DataSource = dt;
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            DataTable dt = tdx.QueryCancel();
+            dataGridView1.DataSource = dt;
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            tdx.cancel();
+        }
+      
 
   
 

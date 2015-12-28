@@ -1193,11 +1193,11 @@ namespace FIXApi
 
                 if (message.getField(724) == "0")       // 股份
                 {
-                    //QueryHoldReport(this, null);
+                //    QueryHoldReport(this, null);
                 }
                 else if (message.getField(724) == "9")  // 资金
                 {
-                    //QueryFundReport(this, null);
+                    QueryFundReport(this, null);
                 }
             }
             else

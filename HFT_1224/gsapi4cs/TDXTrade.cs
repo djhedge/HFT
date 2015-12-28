@@ -116,7 +116,7 @@ namespace HFT
 
         public  DataTable QueryStock()
         {
-            QueryData(ClientID, 1, Result, ErrInfo);//查询资金
+            QueryData(ClientID, 1, Result, ErrInfo);//查询股份
 
             DataTable dt = new DataTable();
             dt.Columns.Add("Ticker");
@@ -130,7 +130,7 @@ namespace HFT
             ErrorMsg = ErrInfo.ToString();
 
             if (ErrorMsg != string.Empty)
-                return null;
+                return dt;
             else
             {
                 string[] Strvalue = Result.ToString().Split('\n');
@@ -155,6 +155,215 @@ namespace HFT
       
         
         }
+
+        public DataTable QueryList()
+        {
+            QueryData(ClientID, 2, Result, ErrInfo);//查询委托
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Ticker");
+            dt.Columns.Add("Name");
+            dt.Columns.Add("Direction");
+            dt.Columns.Add("Sign");
+            dt.Columns.Add("QuantityListed");
+            dt.Columns.Add("PriceListed");
+            dt.Columns.Add("QuantityExecuted");
+            dt.Columns.Add("QuantityCancled");
+            dt.Columns.Add("ListTime");
+            dt.Columns.Add("ListNum");
+            dt.Columns.Add("ListSign");
+            dt.Columns.Add("StockHolder");
+            dt.Columns.Add("Exchange");
+
+            dt.PrimaryKey = new DataColumn[] { dt.Columns["ListNum"] };
+            ErrorMsg = ErrInfo.ToString();
+
+            if (ErrorMsg != string.Empty)
+                return dt;
+            else
+            {
+                string[] Strvalue = Result.ToString().Split('\n');
+                for (int i = 1; i < Strvalue.Length; i++)
+                {
+                    string[] Str = Strvalue[i].Split('\t');
+                    DataRow dr = dt.NewRow();
+                    dr["Ticker"] = Str[0];
+                    dr["Name"] = Str[1];
+                    dr["Direction"] = Str[2];
+                    dr["Sign"]=Convert.ToInt32(Str[3]);
+                    dr["QuantityListed"] = Convert.ToInt32(Str[4]);
+                    dr["PriceListed"] = Convert.ToDouble(Str[5]);
+                    dr["QuantityExecuted"] = Convert.ToInt32(Str[6]);
+                    dr["QuantityCancled"] = Convert.ToInt32(Str[7]);
+                    dr["ListTime"] = Str[8];
+                    //委托编号
+                    dr["ListNum"] = Convert.ToInt32(Str[9]);
+                    dr["ListSign"] = Str[10];
+                    dr["StockHolder"] =Str[11];
+                    dr["Exchange"] = Str[12];
+                    dt.Rows.Add(dr);
+
+                }
+
+                return dt;
+            }
+
+
+        }
+
+        public DataTable QueryOrder()
+        {
+            QueryData(ClientID, 3, Result, ErrInfo);//查询委托
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Ticker");
+            dt.Columns.Add("Name");
+            dt.Columns.Add("Direction");
+            dt.Columns.Add("Sign");      
+            dt.Columns.Add("QuantityExecuted");
+            dt.Columns.Add("PriceExecuted");        
+            dt.Columns.Add("AmtExecuted");
+            dt.Columns.Add("Abstract");          
+            dt.Columns.Add("ListNum");
+            dt.Columns.Add("OrderNum");
+            dt.Columns.Add("OrderTime");         
+            dt.Columns.Add("StockHolder");
+            dt.Columns.Add("Exchange");
+            dt.PrimaryKey = new DataColumn[] { dt.Columns["ListNum"] };
+
+
+            ErrorMsg = ErrInfo.ToString();
+            if (ErrorMsg != string.Empty)
+                return dt;
+            else
+            {
+                string[] Strvalue = Result.ToString().Split('\n');
+                for (int i = 1; i < Strvalue.Length; i++)
+                {
+                    string[] Str = Strvalue[i].Split('\t');
+                    DataRow dr = dt.NewRow();
+                    dr["Ticker"] = Str[0];
+                    dr["Name"] = Str[1];
+                    dr["Direction"] = Str[2];
+                    dr["Sign"] = Convert.ToInt32(Str[3]);
+                    dr["QuantityExecuted"] = Convert.ToInt32(Str[4]);
+                    dr["PriceExecuted"] = Convert.ToDouble(Str[5]);
+                    dr["AmtExecuted"] = Convert.ToDouble(Str[6]);
+                    dr["Abstract"] =Str[7];
+                    //委托编号
+                    dr["ListNum"] = Str[8];
+                    //成交编号
+                    dr["OrderNum"] = Convert.ToInt32(Str[9]);
+                    dr["OrderTime"] = Str[10];
+                    dr["StockHolder"] = Str[11];
+                    dr["Exchange"] = Str[12];
+                    dt.Rows.Add(dr);
+
+                }
+
+                return dt;
+            }
+
+
+        }
+
+        public DataTable QueryCancel()
+        {
+            QueryData(ClientID, 4, Result, ErrInfo);//查询可撤
+
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Ticker");
+            dt.Columns.Add("Name");
+            dt.Columns.Add("Direction");
+            dt.Columns.Add("Sign");
+            dt.Columns.Add("QuantityListed");
+            dt.Columns.Add("PriceListed");
+            dt.Columns.Add("QuantityExecuted");
+            dt.Columns.Add("QuantityCancled");
+            dt.Columns.Add("ListTime");
+            dt.Columns.Add("ListNum");
+            dt.Columns.Add("ListSign");
+            dt.Columns.Add("StockHolder");
+            dt.Columns.Add("Exchange");
+            dt.PrimaryKey = new DataColumn[] { dt.Columns["ListNum"] };
+
+
+            ErrorMsg = ErrInfo.ToString();
+            if (ErrorMsg != string.Empty)
+                return dt;
+            else
+            {
+                string[] Strvalue = Result.ToString().Split('\n');
+                for (int i = 1; i < Strvalue.Length; i++)
+                {
+                    string[] Str = Strvalue[i].Split('\t');
+                    DataRow dr = dt.NewRow();
+                    dr["Ticker"] = Str[0];
+                    dr["Name"] = Str[1];
+                    dr["Direction"] = Str[2];
+                    dr["Sign"] = Convert.ToInt32(Str[3]);
+                    dr["QuantityListed"] = Convert.ToInt32(Str[4]);
+                    dr["PriceListed"] = Convert.ToDouble(Str[5]);
+                    dr["QuantityExecuted"] = Convert.ToInt32(Str[6]);
+                    dr["QuantityCancled"] = Convert.ToInt32(Str[7]);
+                    dr["ListTime"] = Str[8];
+                    //委托编号
+                    dr["ListNum"] = Convert.ToInt32(Str[9]);
+                    dr["ListSign"] = Str[10];
+                    dr["StockHolder"] = Str[11];
+                    dr["Exchange"] = Str[12];
+                    dt.Rows.Add(dr);
+                }
+
+                return dt;
+            }
+
+
+        }
+
+        public void cancel()
+        { 
+             //CancelOrder(int ClientID, char* ExchangeID, char* hth, char* Result, char* ErrInfo);
+            CancelOrder( ClientID, "1", "11223",Result,  ErrInfo);
+            if (string.IsNullOrEmpty(Convert.ToString(ErrInfo)))
+            {
+                //正常撤单
+            }
+            else
+            {
+                //撤单出错
+            }
+        }
+
+
+
+
+        public void Send()
+        {
+             //num为委托编号
+             string num = "";
+             SendOrder(ClientID, 0, 0, "B880368732", "511880", 103.3f, 100, Result, ErrInfo);
+             if (!string.IsNullOrEmpty(Convert.ToString(ErrInfo)))
+             {
+                 //下单被拒
+             }
+             else
+             {
+                 foreach (char item in Convert.ToString(Result))
+                 {
+                     if (item >= 48 && item <= 58)
+                     {
+                         num += item;
+                     }
+                 }
+                 num = num.Substring(0, num.Length - 1);
+             }
+
+
+        
+        }
+
+
 
         public void TDXTest()
         {
