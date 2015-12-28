@@ -339,27 +339,30 @@ namespace HFT
 
         public void Send()
         {
-             //num为委托编号
-             string num = "";
-             SendOrder(ClientID, 0, 0, "B880368732", "511880", 103.3f, 100, Result, ErrInfo);
-             if (!string.IsNullOrEmpty(Convert.ToString(ErrInfo)))
-             {
-                 //下单被拒
-             }
-             else
-             {
-                 foreach (char item in Convert.ToString(Result))
-                 {
-                     if (item >= 48 && item <= 58)
-                     {
-                         num += item;
-                     }
-                 }
-                 num = num.Substring(0, num.Length - 1);
-             }
+            //num为委托编号
+            string num = "";
+      
+            SendOrder(ClientID, 0, 0, "B880368732", "511880", 103.3f, 100, Result, ErrInfo);
+          
+            if (!string.IsNullOrEmpty(Convert.ToString(ErrInfo)))
+            {
+                //下单被拒
+            }
+            else
+            {
+                foreach (char item in Convert.ToString(Result))
+                {
+                    int z = item;
+                    if (item >= 48 && item <= 57)
+                    {
+                        num += item;
+                    }
+                }
+                num = num.Substring(0, num.Length - 1);
+            }
 
 
-        
+
         }
 
 

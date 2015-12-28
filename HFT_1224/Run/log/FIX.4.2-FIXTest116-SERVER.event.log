@@ -970,3 +970,8 @@
 20151228-05:05:10 : Initiated logon request
 20151228-05:05:10 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
 20151228-05:05:10 : Received logon response
+20151228-06:52:58 : Created session
+20151228-06:52:58 : Connecting to 58.61.28.214 on port 8878
+20151228-06:52:58 : Initiated logon request
+20151228-06:52:58 : Logon contains ResetSeqNumFlag=Y, reseting sequence numbers to 1
+20151228-06:52:58 : Received logon response
