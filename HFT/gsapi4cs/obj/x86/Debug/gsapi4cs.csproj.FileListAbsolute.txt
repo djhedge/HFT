@@ -1,0 +1,54 @@
+E:\金证FIX\demo\gsapi4cs\Run\gsapi4cs.exe
+E:\金证FIX\demo\gsapi4cs\Run\gsapi4cs.pdb
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Demo.resources
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.FIXLog.resources
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Logon.resources
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Properties.Resources.resources
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.csproj.GenerateResource.Cache
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+E:\金证FIX\demo\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\Run\gsapi4cs.exe
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\Run\gsapi4cs.pdb
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Demo.resources
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.FIXLog.resources
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Logon.resources
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Properties.Resources.resources
+D:\tianss1-06146\Wood.T\guoxin\数量化交易组\Work\FIX网关\Fix测试-tianss1\SOURCE\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\Run\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\Run\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Demo.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.FIXLog.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Logon.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.Properties.Resources.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs-融资融券\gsapi4cs\obj\x86\Debug\gsapi4cs.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\Run\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\Run\gsapi4cs.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Demo.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.FIXLog.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Logon.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.Properties.Resources.resources
+C:\Users\123\Documents\Visual Studio 2013\Projects\gsapi4cs\gsapi4cs\obj\x86\Debug\gsapi4cs.csproj.GenerateResource.Cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\DJ_FIX\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe.config
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\Run\gsapi4cs.pdb
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Demo.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.FIXLog.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Logon.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.MainForm.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\HFT.Properties.Resources.resources
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.exe
+D:\Documents\Visual Studio 2013\Projects\HighFreqTrading\gsapi4cs\obj\x86\Debug\gsapi4cs.pdb

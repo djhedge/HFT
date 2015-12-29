@@ -1,0 +1,6 @@
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\bin\Win32Release\CSDemo.exe.config
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\bin\Win32Release\CSDemo.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\bin\Win32Release\CSDemo.pdb
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\demo\obj\x86\Release\CSDemo.csprojResolveAssemblyReference.cache
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\demo\obj\x86\Release\CSDemo.exe
+C:\Users\123\Documents\Visual Studio 2013\Projects\HighFreqTrading\DJ_Feed\demo\obj\x86\Release\CSDemo.pdb

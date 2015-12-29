@@ -1,0 +1,5 @@
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\FIXApi.dll
+C:\Users\huyue\Desktop\HighFreqTrading_1215\Run\FIXApi.pdb
+C:\Users\huyue\Desktop\HighFreqTrading_1215\FIXApi\obj\Release\FIXApi.csprojResolveAssemblyReference.cache
+C:\Users\huyue\Desktop\HighFreqTrading_1215\FIXApi\obj\Release\FIXApi.dll
+C:\Users\huyue\Desktop\HighFreqTrading_1215\FIXApi\obj\Release\FIXApi.pdb
