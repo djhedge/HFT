@@ -1599,6 +1599,7 @@ namespace FIXApi
             OrderBookEntry entry = (OrderBookEntry)oEntry;
 
             if ((mode == TradeMode.Backtest) || (mode == TradeMode.Debug))
+              
             {
                 //只计算P&L，不下单
                 //模拟环境，不需要锁券，直接计算买入价            

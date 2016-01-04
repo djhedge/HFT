@@ -42,6 +42,7 @@
             this.checkBoxCiccSeed1 = new System.Windows.Forms.CheckBox();
             this.checkBoxGuosenHedge1 = new System.Windows.Forms.CheckBox();
             this.checkBoxHY = new System.Windows.Forms.CheckBox();
+            this.checkBoxMarketOrder = new System.Windows.Forms.CheckBox();
             label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -219,11 +220,24 @@
             this.checkBoxHY.Text = "HY";
             this.checkBoxHY.UseVisualStyleBackColor = true;
             // 
+            // checkBoxMarketOrder
+            // 
+            this.checkBoxMarketOrder.AutoSize = true;
+            this.checkBoxMarketOrder.Checked = true;
+            this.checkBoxMarketOrder.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxMarketOrder.Location = new System.Drawing.Point(55, 439);
+            this.checkBoxMarketOrder.Name = "checkBoxMarketOrder";
+            this.checkBoxMarketOrder.Size = new System.Drawing.Size(72, 16);
+            this.checkBoxMarketOrder.TabIndex = 7;
+            this.checkBoxMarketOrder.Text = "市价下单";
+            this.checkBoxMarketOrder.UseVisualStyleBackColor = true;
+            // 
             // Alpha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 613);
+            this.Controls.Add(this.checkBoxMarketOrder);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox1);
@@ -240,6 +254,7 @@
             this.tableLayoutPanel16.ResumeLayout(false);
             this.tableLayoutPanel16.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -258,6 +273,7 @@
         private System.Windows.Forms.CheckBox checkBoxCiccSeed1;
         private System.Windows.Forms.CheckBox checkBoxGuosenHedge1;
         private System.Windows.Forms.CheckBox checkBoxHY;
+        private System.Windows.Forms.CheckBox checkBoxMarketOrder;
     }
 }
 

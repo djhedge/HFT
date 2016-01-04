@@ -33,6 +33,7 @@ namespace HFT
             public Int32 Num { get; set; }
             public string Direction { get; set; }
         }
+        public DataTable orderDt;
 
   
    
@@ -61,24 +62,42 @@ namespace HFT
                 OrderBookEntry entry = new OrderBookEntry();
                 entry.Account = oclass.Account;
                 //买卖方向
-                entry.action = (OrderAction)Enum.Parse(typeof(OrderAction),oclass.Direction);    
-                entry.orderTime =Convert.ToInt32(DateTime.Now.ToString("Hmmss"));
+                entry.action = (OrderAction)Enum.Parse(typeof(OrderAction), oclass.Direction);
+                entry.orderTime = Convert.ToInt32(DateTime.Now.ToString("Hmmss"));
                 entry.orderDate = Convert.ToInt32(DateTime.Now.ToString("yyyyMMdd"));
                 entry.ticker = oclass.Ticker;
                 entry.strategies = (TradingStrategies)Enum.Parse(typeof(TradingStrategies), oclass.Strategy);
                 entry.quantityListed = oclass.Num;
-              
-                //限价
-                //entry.bMarket = false;
-                //entry.priceListed = 10;
+
+
                 //市价
-                entry.bMarket = true;
-                entry.priceListed = 0;
+                if (checkBoxMarketOrder.Checked)
+                {
+                    entry.bMarket = true;
+                    entry.priceListed = 0;
+                }
+                //限价
+                else
+                {
+                    entry.bMarket = false;
+                    int level = 4;
+                    if (dataDict.ContainsKey(entry.ticker) && Convert.ToString(entry.action).Contains("Buy"))
+                        entry.priceListed = Convert.ToDouble(dataDict[entry.ticker].AskPrices[level]);
+                    else if (dataDict.ContainsKey(entry.ticker) && Convert.ToString(entry.action).Contains("Sell"))
+                        entry.priceListed = Convert.ToDouble(dataDict[entry.ticker].BidPrices[level]);
+                    else
+                        entry.priceListed = 0;
+
+                    if (entry.priceListed == 0)
+                        continue;
+                }
+
+
 
                 //模拟交易时使用资金账户买
                 if (Convert.ToString(entry.action).Contains("Buy"))
                     entry.type = OrderType.CashBuy;
-            
+
                 else
                     entry.type = OrderType.CashSell;
 
@@ -159,7 +178,7 @@ namespace HFT
 
 
 
-            DataTable orderDt = new DataTable();
+            orderDt = new DataTable();
             orderDt.Columns.Add("Account");
             orderDt.Columns.Add("Strategy");
             orderDt.Columns.Add("Ticker");
@@ -178,6 +197,45 @@ namespace HFT
             }
 
 
+            string TickerList = "";
+            string ticker = "", tickerWithMarket = "", tickerListStr = "";
+
+            for (int i = 0; i < orderDt.Rows.Count; i++)
+            {
+                DataRow dr = orderDt.Rows[i];
+                ticker = Convert.ToString(dr["Ticker"]);
+                ticker = ticker.Trim();
+
+                if (ticker.StartsWith("60") || ticker.StartsWith("51"))
+                {
+                    tickerWithMarket = ticker + ".sh";   // 上海
+                }
+                else if (ticker.StartsWith("00") || ticker.StartsWith("30") || ticker.StartsWith("15"))
+                {
+                    tickerWithMarket = ticker + ".sz";    // 深圳
+                }
+
+                if (!TickerList.Contains(ticker))
+                {
+
+                    tickerListStr = tickerListStr + ";" + tickerWithMarket;
+                }
+
+                SingleStockData sd = new SingleStockData(ticker);
+                sd.StatusTrending = StrategyStatus.New;
+                sd.StatusReverse = StrategyStatus.New;
+
+                if (!dataDict.ContainsKey(ticker))
+                    dataDict.Add(ticker, sd);
+            }
+            dc.SetSubscription(tickerListStr, SubscriptionType.SUBSCRIPTION_ADD);
+            //将行情输入dtPosition
+            orderDt.Columns.Add("OrderPrice");
+            //刷新datagridview
+            System.Timers.Timer t = new System.Timers.Timer(5000);   //实例化Timer类，设置间隔时间为5000毫秒；   
+            t.Elapsed += new System.Timers.ElapsedEventHandler(theout); //到达时间的时候执行事件；   
+            t.AutoReset = true;   //设置是执行一次（false）还是一直执行(true)；   
+            t.Enabled = true;
 
 
 
@@ -186,6 +244,37 @@ namespace HFT
             dataGridView1.DataSource = orderDt;
            dataGridView1.Refresh();
           
+        }
+        public void theout(object source, System.Timers.ElapsedEventArgs e)
+        {
+            System.Timers.Timer t = (System.Timers.Timer)source;
+            if (this.InvokeRequired)
+            {
+                this.BeginInvoke(new System.Timers.ElapsedEventHandler(theout), source, e);
+                // this.Invoke(new System.Timers.ElapsedEventHandler(theout),source,e);
+            }
+            else
+            {
+                for (int i = 0; i < orderDt.Rows.Count; i++)
+                {
+                    string ticker = "";
+                    int level = 4;
+                    DataRow dr = orderDt.Rows[i];
+                    ticker = Convert.ToString(dr["Ticker"]);
+                    ticker = ticker.Trim();
+                    if (dataDict.ContainsKey(ticker))
+                    {
+                        if (dr["Direction"]=="Buy")
+                            dr["OrderPrice"] = Convert.ToDouble(dataDict[ticker].AskPrices[level]);
+                        else if (dr["Direction"] == "Sell")
+                            dr["OrderPrice"] = Convert.ToDouble(dataDict[ticker].BidPrices[level]);
+                    }
+                    else
+                        dr["OrderPrice"] = 0;
+
+                }
+                dataGridView1.Refresh();
+            }
         }
 
 
